@@ -67,6 +67,7 @@ StyleCopReport.xml
 *_i.c
 *_p.c
 *_h.h
+*_i.h
 *.ilk
 *.meta
 *.obj
@@ -301,8 +302,12 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
-# CodeRush personal settings
-.cr/personal
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# CodeRush
+.cr/
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
@@ -348,5 +353,5 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# Resharper
-.idea
+# MFractors (Xamarin productivity tool) working folder 
+.mfractor/
